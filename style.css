@@ -55,8 +55,8 @@ img {
   align-items: center;
 }
 .faq-cont {
-  max-width: 60rem;
-  height: 30rem;
+  max-width: 64rem;
+  height: 35rem;
   background-color: #fff;
   /* background-color: orange; */
   display: flex;
@@ -70,11 +70,10 @@ img {
   /* background-color: orangered; */
   background-image: url(images/bg-pattern-desktop.svg);
   background-position: right;
-  backg
 }
 .faq-details {
   width: 50%;
-  background-color: green;
+  /* background-color: green; */
 }
 .faq-image-1 {
   overflow: hidden;
@@ -86,8 +85,35 @@ img {
 .faq-image-2 {
   position: absolute;
   top: 40%;
-  left: -30%;
+  left: -28%;
 }
 
-
 /* Styling the faq-items */
+.faq-details {
+  /* align-self: flex-start; */
+  padding: 1rem;
+}
+.faq-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: inherit;
+  margin-bottom: 1rem;
+}
+.accordion {
+}
+.accordion-item {
+  margin-bottom: 1rem;
+}
+.acordion-head {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  background-color: orange;
+}
+.acordion-head button {
+  padding: 0.1rem 2rem;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

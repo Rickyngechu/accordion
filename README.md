@@ -36,8 +36,8 @@ The following screenshots shows both the mobile and desktop version of the proje
 
 ### Links
 
-- Solution URL: [Source code](https://github.com/Rickyngechu/Frontendmentour-4)
-- Live Site URL: [Netlify live web](https://frontendmentour-4.netlify.app)
+- Solution URL: [Source code](https://github.com/Rickyngechu/accordion)
+- Live Site URL: [Netlify live web](https://frontendmentour-5.netlify.app)
 
 ## My process
 

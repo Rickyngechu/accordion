@@ -56,7 +56,8 @@ img {
 }
 .faq-cont {
   max-width: 64rem;
-  height: 35rem;
+  min-height: 30rem;
+  border-radius: 5px;
   background-color: #fff;
   /* background-color: orange; */
   display: flex;
@@ -66,8 +67,8 @@ img {
 .faq-image {
   position: relative;
   width: 50%;
+
   /* overflow: hidden; */
-  /* background-color: orangered; */
   background-image: url(images/bg-pattern-desktop.svg);
   background-position: right;
 }
@@ -100,6 +101,7 @@ img {
   margin-bottom: 1rem;
 }
 .accordion {
+  max-width: 30rem;
 }
 .accordion-item {
   margin-bottom: 1rem;
@@ -107,13 +109,61 @@ img {
 .acordion-head {
   display: flex;
   justify-content: space-between;
-  padding: 0.5rem;
-  background-color: orange;
+  /* padding: 0.5rem; */
+  /* padding-block: 0.5rem; */
+  /* background-color: orange; */
+  border-bottom: 1px solid hsla(0, 0%, 0%, 0.61);
+}
+.acordion-head p {
+  line-height: 1;
+  padding-block: 0.5rem;
+  display: block;
+  font-size: 1rem;
+  font-weight: 700;
+  z-index: 1;
+  color: var(--Very-dark-grayishblue);
+}
+.acordion-head p:hover {
+  color: var(--Soft-ed);
+  cursor: pointer;
+}
+.selected {
+  color: var(--Very-dark-desaturatedblue);
 }
 .acordion-head button {
-  padding: 0.1rem 2rem;
+  padding: 0.5rem 2rem;
   background-color: transparent;
   border: none;
   outline: none;
+  z-index: 1;
+  /* cursor: pointer; */
+  /* background-color: orangered; */
+}
+.acordion-head button:hover {
   cursor: pointer;
+}
+.accordion-details {
+  /* background-color: green; */
+  height: 4.2rem;
+  opacity: 1;
+  visibility: visible;
+
+  transition: all 0.4s ease;
+}
+.accordion-details p {
+  font-size: 1rem;
+  padding: 0.5rem;
+  color: var(--Very-dark-grayishblue);
+}
+.hide {
+  height: 0;
+  /* display: none; */
+  visibility: none;
+  opacity: 0;
+}
+.img {
+  transition: all 0.1s ease;
+}
+.imgrt {
+  transform: rotate(180deg);
 }
